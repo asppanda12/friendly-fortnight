@@ -162,6 +162,7 @@ python Nemo/tools/speech_data_explorer/data_explorer.py train_manifest.jsonl
 9.The tasks involving Selenium WebDriver require specifying the driver directory, which should correspond to the appropriate driver for the chosen browser (e.g., chromedriver for Chrome).
 <br /><br />
 10.It is important to note the dependencies, command-line arguments, and execution instructions for each task to ensure smooth and successful execution.
-
-
-
+<br /><br />
+11.In some PDF files, timestamps are not extracted accurately, resulting in inefficient generation of audio and text chunks.
+<br /><br />
+12.Unwanted Unicode characters may be generated during text extraction from PDF files. Trying alternative text extraction modules could help avoid this issue.
